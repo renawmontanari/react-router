@@ -17,6 +17,18 @@
         "name": "Monitor Gamer",
         "color": "White",
         "price": 499.9
+        },
+        {
+        "id": 4,
+        "name": "Monitor Gamer",
+        "color": "White",
+        "price": 499.9
+        },
+        {
+          "id": 5,
+          "name": "Monitor Gamer",
+          "color": "White",
+          "price": 499.9
         }
     ]
 }
