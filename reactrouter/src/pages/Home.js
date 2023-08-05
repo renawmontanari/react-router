@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { useFetch } from "../hooks/useFetch";
@@ -20,6 +21,8 @@ const Home = () => {
                     <h3>{item.name}</h3>
                     <p>Color: {item.color}</p>
                     <p>R$: {item.price}</p>
+                    {/* Rota dinamica */}
+                    <Link to={`/products/${item.id}`}>Detalhes</Link>
                 </li>
             ))}
         </ul>
